@@ -8,6 +8,13 @@ eureka:
   instance:
     hostname: localhost
     #hostname: configuration
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
 
 
 
