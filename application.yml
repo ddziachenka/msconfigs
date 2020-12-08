@@ -6,9 +6,8 @@ management:
 
 eureka:
   instance:
-    #hostname: localhost
-    #hostname: config-client
-    hostname: configuration
+    hostname: localhost
+    #hostname: configuration
 
 
 
