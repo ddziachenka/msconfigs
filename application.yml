@@ -8,7 +8,7 @@ eureka:
   instance:
     hostname: localhost
     #hostname: configuration
-    prefer-ip-address: true
+    #prefer-ip-address: true
   #client:
     #service-url:
       #defaultZone: http://discovery-service:8761/eureka/
